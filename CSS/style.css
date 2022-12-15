@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Space+Mono:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inconsolata:wght@700&family=Montserrat:wght@500&family=Space+Mono:wght@400;700&display=swap');
 
 *{
     margin: 0;
@@ -31,16 +31,18 @@
 .left-contents img{
     width: 33.701rem;
     height: 27.964rem;
-    margin-top: 16.563rem;
-    margin-left: 4.813rem;
+    margin-top: 15rem;
+    margin-left: 7.938rem;
 }
 
 .right-contents{
    display: flex;
+   justify-content: center;
    flex-direction: column;
    font-family: 'Space Mono', monospace;
    margin-top: 16.563rem;
    margin-left: 1rem;
+   margin-right: 14.875rem;
 }
 
 .right-contents h2{
@@ -55,8 +57,40 @@
 }
 
 .right-contents span{
-    
+    margin-top: 2.25rem;
+    width: 23.813rem;
+    height: 6.75rem;
+    left: 46rem;
+    top: 30.688rem;
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 2.25rem;
+    letter-spacing: -0.035em;
+}
+
+.right-contents button{
+    background: #333333;
+    width: 13.5rem;
+    height: 4.25rem;
+    left: 46.25rem;
+    top: 41.438rem;
+    color: #fff;
+    margin-top: 4rem;
+    cursor: pointer;
+    box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.3);
+    transition: all 1s ease;
+}
+
+.right-contents button:hover{
+    background-color: rgba(114, 102, 102, 0.349);
+    color: black;
 }
 
 
-
+footer{
+    font-family: 'Montserrat', sans-serif;
+    display: flex;
+    margin-top: 12rem;
+    justify-content: center;
+    color: #BDBDBD;
+}
